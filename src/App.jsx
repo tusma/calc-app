@@ -91,17 +91,3 @@ const App = () => {
 //exportacion (disponibilizar en la importacion)
 export default App
 
-//serve servidor liviano para testear el app, server en node. 
-//En PRD son utilziados servidores Apache, NGInx, IIS
-//npm install -g serve (-g es para instalaciones globales, no en el node_modules local)
-//para ejecutar es 
-//serve -s build
-
-//para instalar en PRD, luego se copia la carpeta build: 
-//npm run build
-
-//deploy en servidor, lo sgte instala herramientas para traabajar CLI.
-//npm install -g firebase-tools
-//luego firebase init
-
-//firebase deploy, sube todo lo de build al servidor

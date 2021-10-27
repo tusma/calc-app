@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### comentarios curso
+//serve servidor liviano para testear el app, server en node. 
+//En PRD son utilziados servidores Apache, NGInx, IIS
+//npm install -g serve (-g es para instalaciones globales, no en el node_modules local)
+//para ejecutar es 
+//serve -s build
+
+//para instalar en PRD, luego se copia la carpeta build: 
+//npm run build
+
+//deploy en servidor, lo sgte instala herramientas para traabajar CLI.
+//npm install -g firebase-tools
+//luego para configurar entorno
+//firebase init
+
+//firebase deploy, sube todo lo de build al servidor
+
+//npm start inicia la app
